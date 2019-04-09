@@ -1,6 +1,8 @@
 Bootstrap Context Menu
 =============================
 
+https://github.com/dgoguerra/bootstrap-menu with updated packages to remove vulnerabilities.
+
 A context menu plugin using Bootstrap's dropdown component.
 
 It's made to be usable without having to add any specific HTML for

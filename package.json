@@ -1,12 +1,12 @@
 {
-  "name": "bootstrap-menu",
-  "version": "1.0.14",
+  "name": "@superheri/bootstrap-menu",
+  "version": "1.0.15",
   "description": "Context menu plugin using Bootstrap's style",
   "main": "src/BootstrapMenu.js",
   "dependencies": {
     "classnames": "^2.1.3",
     "jquery-ui": "^1.12.0",
-    "lodash": "^3.10.0"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "node-static": "^0.7.7",
@@ -14,12 +14,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "./build.sh",
+    "prepublish": "build.sh",
     "serve": "node_modules/.bin/static"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dgoguerra/bootstrap-menu.git"
+    "url": "https://github.com/superheri/bootstrap-menu.git"
   },
   "keywords": [
     "bootstrap",
@@ -29,7 +29,10 @@
   "author": "Diego Guerra <dgoguerra.or@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dgoguerra/bootstrap-menu/issues"
+    "url": "https://github.com/superheri/bootstrap-menu/issues"
   },
-  "homepage": "https://github.com/dgoguerra/bootstrap-menu"
+  "homepage": "https://github.com/superheri/bootstrap-menu",
+  "contributors": [
+    "superheri <hericendre@live.com>"
+  ]
 }
