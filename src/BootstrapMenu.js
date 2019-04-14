@@ -9,12 +9,12 @@ var _ = function() {
   throw new Error('Custom lodash build for BootstrapMenu. lodash chaining is not included');
 };
 
-_.noop = require('lodash/utility/noop');
-_.each = require('lodash/collection/each');
-_.contains = require('lodash/collection/contains');
-_.extend = require('lodash/object/extend');
-_.uniqueId = require('lodash/utility/uniqueId');
-_.isFunction = require('lodash/lang/isFunction');
+_.noop = require('lodash/noop');
+_.each = require('lodash/each');
+_.contains = require('lodash/includes');
+_.extend = require('lodash/extend');
+_.uniqueId = require('lodash/uniqueId');
+_.isFunction = require('lodash/isFunction');
 
 
 var defaultOptions = {

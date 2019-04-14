@@ -1,7 +1,7 @@
 Bootstrap Context Menu
 =============================
 
-https://github.com/dgoguerra/bootstrap-menu with updated packages to remove vulnerabilities.
+[bootstrap-menu](https://github.com/dgoguerra/bootstrap-menu) with updated packages to remove vulnerabilities and typings.
 
 A context menu plugin using Bootstrap's dropdown component.
 
@@ -11,23 +11,21 @@ easily.
 
 Depends on [jQuery](https://jquery.com/). It uses Bootstrap's styling classes, and if using the `iconClass` option, also Font Awesome.
 
-
 * [See the demos](https://dgoguerra.github.io/bootstrap-menu/demos.html)
-
 
 Installation
 ------------
 
 The easiest way to use BootstrapMenu is installing it from NPM:
 
-```
+```shell
 npm install bootstrap-menu
 ```
 
 and include it with your with your build system ([Browserify](http://browserify.org/), [Webpack](https://webpack.github.io/docs/what-is-webpack.html), etc).
 
 ```js
-var BootstrapMenu = require('bootstrap-menu');
+var BootstrapMenu = require('@superheri/bootstrap-menu');
 
 var menu = new BootstrapMenu('#dropdownButton', {
   actions: /* ... */
@@ -51,7 +49,7 @@ To run the examples locally, run:
 
 ```shell
 npm install
-./build.sh # rebuild dist/
+build.sh # rebuild dist/
 ```
 
 Then open a webserver in the project's root:
@@ -60,7 +58,6 @@ Then open a webserver in the project's root:
 node_modules/.bin/static .
 # serving "." at http://127.0.0.1:8080
 ```
-
 
 Usage
 -----
@@ -192,7 +189,6 @@ var menu = new BootstrapMenu('.demoTableRow', {
 });
 ```
 
-
 Options
 -------
 
@@ -219,7 +215,6 @@ Every function attribute is called before rendering the menu each time it is ope
 | `classNames` | string&#124;object&#124;function | Optional, classes to add to the action. |
 | `isShown` | function | Optional, decides if the action should be shown or hidden in the context menu. |
 | `isEnabled` | function | Optional, decides if the action should appear enabled or disabled in the context menu. |
-
 
 License
 -------

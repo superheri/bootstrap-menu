@@ -4,7 +4,12 @@ var config = require('./webpack.config.js');
 //config.devtool = 'source-map';
 
 config.plugins.push(
-    new webpack.optimize.UglifyJsPlugin({ minimize: true })
+    new webpack.optimize.UglifyJsPlugin({
+        minimize: true,
+        output: {
+            comments: false
+        }
+    })
 );
 
 module.exports = config;
