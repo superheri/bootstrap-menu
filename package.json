@@ -1,6 +1,6 @@
 {
   "name": "@superheri/bootstrap-menu",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Context menu plugin using Bootstrap's style",
   "main": "src/BootstrapMenu.js",
   "types": "src/BootstrapMenu.d.ts",

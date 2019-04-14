@@ -19,7 +19,7 @@ Installation
 The easiest way to use BootstrapMenu is installing it from NPM:
 
 ```shell
-npm install bootstrap-menu
+npm install @superheri/bootstrap-menu
 ```
 
 and include it with your with your build system ([Browserify](http://browserify.org/), [Webpack](https://webpack.github.io/docs/what-is-webpack.html), etc).
