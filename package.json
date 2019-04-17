@@ -1,6 +1,6 @@
 {
   "name": "@superheri/bootstrap-menu",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Context menu plugin using Bootstrap's style",
   "main": "src/BootstrapMenu.js",
   "types": "src/BootstrapMenu.d.ts",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "build.sh",
+    "prepare": "build.sh",
     "serve": "node_modules/.bin/static"
   },
   "repository": {
