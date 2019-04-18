@@ -116,6 +116,10 @@ declare class BootstrapMenu {
      * Close the context menu
      */
     close: () => void;
+
+    $container: any;
+    $menu: any;
+    closeNamespace: any;
 }
 
 export = BootstrapMenu;
